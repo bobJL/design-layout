@@ -1,0 +1,112 @@
+body{
+margin: 0;
+text-align: center;
+}
+
+div#main_container{
+margin: 0 auto 0 auto;
+width: 750px;
+text-align: left;
+font-family: sans-serif;
+}
+
+div#header{
+background-color: silver;
+width: 100%;
+height: 100px;
+text-align: right;
+}
+
+div#navigatie{
+background-color: purple;
+padding-top: 125px;
+float: left;
+width: 20%;
+height: 300px;
+}
+
+div#content{
+background-color: red;
+float: left;
+width: 80%;
+height: 800px;
+}
+
+h2{
+padding-left: 20px;
+}
+
+p{
+margin: 60px 20px 60px 20px;
+color: yellow;
+}
+
+div#footer{
+background-color: yellow;
+float: center;
+width: 100%;
+height: 50px;
+text-align: center;
+}
+
+#nav, #nav ul, #nav ul ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+background: url(none.gif) repeat 0 0;
+font-family: Verdana, Arial, sans-serif;
+font-size: 75%;}
+
+#nav{
+	width: 95px;
+}
+#nav li{
+	width:95px;
+}
+#nav ul{
+	position: absolute;
+	width: 100px;
+	left: -1000px;
+	margin: -22px 0 0 95px;
+font-size: 100%;}
+
+*html #nav ul{margin: -23px 0 0 95px;;}
+
+#nav li li{ width: 100px;
+}
+#nav ul ul { width: 140px;
+margin: -22px 0 0 100px;
+font-size: 100%;
+}
+*html #nav ul ul{
+	margin: -23px 0 0 100px;
+}
+#nav li li li{
+	width:140px;
+}
+
+#nav li:hover ul, #nav li.ie_does_hover ul{
+	left: auto;
+}
+#nav li:hover ul ul, #nav li.ie_does_hover ul ul{
+	left: -1000px;
+}
+#nav ul li:hover ul, #nav ul li.ie_does_hover ul{
+	left: auto;
+}
+
+#nav a{ 
+display: block;
+text-decoration: none;
+padding: 2px 4px 3px 4px;
+margin: 1px;
+}
+#nav a:link, #nav a:visited{
+	background: #d2d2e6;
+	border: 1px solid #494980;
+	color: #494980;
+}
+#nav a:hover, #nav a:active{
+	background: #6d6d99;
+	border: 1px solid #494980;
+color:#fff; }

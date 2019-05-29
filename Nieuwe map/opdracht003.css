@@ -1,0 +1,88 @@
+body{
+margin: 0;
+text-align: center;
+background: url(patroonachtergrond.jpg) fixed repeat top left ;
+}
+li{display: inline;
+margin: 0 10px 0 0;
+}
+
+div#main_container{
+margin: 0 auto 0 auto;
+width: 750px;
+text-align: left;
+font-family: sans-serif;
+}
+
+div#header{
+background-color: silver;
+color: red;
+background: url(black_woven_seamless_tile.jpg) fixed repeat top left;
+width: 100%;
+height: 100px;
+text-align: right;
+}
+
+div#navigatie{
+background: url(techno.jpg) repeat ;
+padding-top: 100px;
+color: yellow;
+float: left;
+width: 20%;
+height: 600px;
+}
+
+div#content{
+background: url(hexagonbackground.jpg) repeat;
+float: left;
+width: 80%;
+height: 800px;
+overflow: auto;
+}
+
+h2{
+padding-left: 20px;
+}
+
+p{
+margin: 0px 20px 0px 20px;
+color: yellow;
+background: url(divider2.png) no-repeat center bottom;
+padding: 0 0 120px 0;}
+
+
+div#footer{ 
+background: url(footer.jpg) repeat;
+float: center;
+width: 100%;
+height: 50px;
+text-align: center;
+}
+
+ul1{
+	border: url(patroon.png) 0 20px 0 20px;
+    padding: 0 20px 0 20px;
+	color: red;
+    list-style: none;
+}
+ul2{
+padding: 0 20px 0 20px;
+list-style: none;
+}
+li{ margin: 10px 0 0 0;
+padding: 0 0 5px 5px;
+width: 400px;
+
+}
+
+li li{ margin: 2px 0 0 0;
+padding: 0 0 2px 5px;
+}
+a{
+	font-size: 0.8em;
+	text-decoration: none;
+}
+a:link, a:visited{
+	color: red;
+}
+
